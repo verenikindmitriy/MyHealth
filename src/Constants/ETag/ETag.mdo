@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba2aac6c-a615-11ea-039c-6326ab9efae0">
+  <producedTypes>
+    <managerType typeId="ba2aac44-a615-11ea-039c-6326ab9efae0" valueTypeId="ba2aac58-a615-11ea-039c-6326ab9efae0"/>
+    <valueManagerType typeId="ba2aac59-a615-11ea-039c-6326ab9efae0" valueTypeId="ba2aac5a-a615-11ea-039c-6326ab9efae0"/>
+    <valueKeyType typeId="ba2aac5b-a615-11ea-039c-6326ab9efae0" valueTypeId="ba2aac62-a615-11ea-039c-6326ab9efae0"/>
+  </producedTypes>
+  <name>ETag</name>
+  <synonym>
+    <key>ru</key>
+    <value>E tag</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="807120be-9036-4a02-9d14-47a4f98d89c9">
+  <producedTypes>
+    <objectType typeId="9361a6c8-ef6b-4050-a852-8a841565e2c9" valueTypeId="9de721ce-cdf0-4fbf-95e0-f3569fa6be4f"/>
+    <refType typeId="5028a782-4cb4-4ed6-9210-0501056a338f" valueTypeId="99745dc7-4b23-4bbc-a65f-0855a30d8f64"/>
+    <selectionType typeId="de48a5df-346b-4f1f-990e-1cc6a9774258" valueTypeId="d76952ba-aba4-4552-910b-450d71312d4b"/>
+    <listType typeId="5cbdd4fd-8cc7-458a-9110-7b16cc8117a0" valueTypeId="9b654062-1ce7-4c5b-8173-5886c7eaa83f"/>
+    <managerType typeId="d644d072-5bef-491b-927c-a788d99cd41d" valueTypeId="34539770-b4e7-4b07-be38-ad34637d61d5"/>
+  </producedTypes>
+  <name>Specializations</name>
+  <synonym>
+    <key>ru</key>
+    <value>Specializations</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Specializations.StandardAttribute.Description</inputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
