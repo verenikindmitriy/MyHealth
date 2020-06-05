@@ -1,6 +1,6 @@
 
-Процедура ПередНачаломРаботыСистемы(Отказ)
+Procedure BeforeStart(Cancel)
 	
 	MainModule.getUpdateCatalogsFromServer();
 
-КонецПроцедуры
+EndProcedure
