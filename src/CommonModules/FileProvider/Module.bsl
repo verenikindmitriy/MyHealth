@@ -2,11 +2,12 @@
 Function GetUpdatedFileFromServer(Connection, URL, ETag) Export
 	
 	Headers = New Map();
-	Headers.insert("If-None-Match", ETag);
+	Headers.Insert("If-None-Match", ETag);
 	
-	Request = New HTTPRequest(URL, headers);
+	Request = New HTTPRequest(URL, Headers);
 	Response = Connection.HEAD(Request);
 	
+	// The server will return code 304 if the file wasn't changed
 	If Response.StatusCode = 200 Then
 		Response = Connection.GET(Request);
 		
