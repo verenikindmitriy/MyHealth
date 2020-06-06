@@ -12,20 +12,19 @@
     <key>ru</key>
     <value>Specializations</value>
   </synonym>
-  <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Specializations.StandardAttribute.Description</inputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
+  <codeLength>3</codeLength>
   <descriptionLength>40</descriptionLength>
-  <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
-  <choiceMode>BothWays</choiceMode>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
 </mdclass:Catalog>
