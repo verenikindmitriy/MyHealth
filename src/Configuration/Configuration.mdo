@@ -25,6 +25,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonModules>CommonModule.MainModule</commonModules>
+  <commonModules>CommonModule.FileProvider</commonModules>
   <constants>Constant.ETag</constants>
   <catalogs>Catalog.Specializations</catalogs>
 </mdclass:Configuration>

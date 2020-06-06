@@ -1,6 +1,9 @@
 
-procedure getUpdateCatalogsFromServer() export
+Procedure GetUpdateCatalogsFromServer() Export
 	
-	Catalogs.Specializations.getUpdateFromServer();
+	Location = "raw.githubusercontent.com";
+	Connection = New HTTPConnection(Location,,,,,,New OpenSSLSecureConnection());
 	
-endprocedure
+	Catalogs.Specializations.getUpdateFromServer(Connection);
+	
+EndProcedure

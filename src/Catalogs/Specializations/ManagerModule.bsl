@@ -1,7 +1,6 @@
 
-procedure getUpdateFromServer() export
+Procedure GetUpdateFromServer(Connection) export
 	
-	location = "raw.githubusercontent.com";
 	URL = "verenikindmitriy/MyHealth/master/resources/specializations.json";
 	
 	ETag = Constants.ETag.Get();
@@ -9,22 +8,12 @@ procedure getUpdateFromServer() export
 		ETag = "*";
 	endif;
 	
-	headers = New Map();
-	headers.insert("If-None-Match", ETag);
+	File = FileProvider.GetUpdatedFileFromServer(Connection, URL, ETag);
 	
-	connection = New HTTPConnection(location,,,,,,New OpenSSLSecureConnection());
-	request = New HTTPRequest(URL, headers);
-	response = connection.HEAD(request);
+	If File <> Undefined Then	
+		Reader = New JSONReader();
+		Reader.SetString(File);
+		Data = readJSON(reader);
+	EndIf;
 	
-	if response.StatusCode = 200 then
-		response = connection.GET(request);
-		
-		ETag = response.Headers.Get("ETag");
-		Constants.ETag.Set(ETag);
-		
-		reader = New JSONReader();
-		reader.SetString(response.GetBodyAsString());
-		data = readJSON(reader);
-	endif;
-	
-endProcedure
+EndProcedure
