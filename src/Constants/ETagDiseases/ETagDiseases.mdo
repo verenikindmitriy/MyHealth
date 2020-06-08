@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af12eafa-f54f-412a-b634-cbbd075662a7">
+  <producedTypes>
+    <managerType typeId="32a8b879-cfee-4f82-87d7-fe666efe81a5" valueTypeId="bd6e63eb-8994-4950-9f65-59f33c7cdfe9"/>
+    <valueManagerType typeId="50347c1e-5d99-4708-bee7-4bcd04833fc6" valueTypeId="a22b68fe-67c3-4287-8880-3b62d0453abc"/>
+    <valueKeyType typeId="3d100c98-f080-47d3-9336-90d67c09357b" valueTypeId="430d7ca6-2852-4b26-be7e-fedd2d4a2b15"/>
+  </producedTypes>
+  <name>ETagDiseases</name>
+  <synonym>
+    <key>ru</key>
+    <value>ETag diseases</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

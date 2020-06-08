@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1230b8f-59d8-48a3-beee-f348bffbe3df">
+  <producedTypes>
+    <objectType typeId="39b446be-5cf8-4326-a45e-ec125c22f0e2" valueTypeId="ca7abab5-12b7-48b1-864a-0f325d4fb77c"/>
+    <refType typeId="4710fbf9-b3b6-4dc4-bc5c-8c488c7fbe6a" valueTypeId="3456b7c6-2472-4a3a-8fb9-48a264bd62f9"/>
+    <selectionType typeId="91e47c0a-b094-495c-8037-aec9fd9254aa" valueTypeId="9f9958c0-b485-4d15-8050-48a8f1a39081"/>
+    <listType typeId="7a7a9a25-61b4-466f-843e-7522bead9128" valueTypeId="6af58421-14c4-4403-8911-84b4dbf42df2"/>
+    <managerType typeId="710d23a0-fadb-47c9-9894-1ebc529b59b8" valueTypeId="6415b7b3-4ef5-4cfe-83f2-510323167b98"/>
+  </producedTypes>
+  <name>Diseases</name>
+  <synonym>
+    <key>ru</key>
+    <value>Diseases</value>
+  </synonym>
+  <inputByString>Catalog.Diseases.StandardAttribute.Description</inputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

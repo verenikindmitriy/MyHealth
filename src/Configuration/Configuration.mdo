@@ -26,6 +26,8 @@
   </languages>
   <commonModules>CommonModule.MainModule</commonModules>
   <commonModules>CommonModule.FileProvider</commonModules>
-  <constants>Constant.ETag</constants>
+  <constants>Constant.ETagDiseases</constants>
+  <constants>Constant.ETagSpecializations</constants>
+  <catalogs>Catalog.Diseases</catalogs>
   <catalogs>Catalog.Specializations</catalogs>
 </mdclass:Configuration>

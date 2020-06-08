@@ -1,9 +1,9 @@
 
 Procedure GetUpdateFromServer(Connection) Export
 	
-	URL = "verenikindmitriy/MyHealth/master/resources/specializations.json";
+	URL = "verenikindmitriy/MyHealth/master/resources/diseases.json";
 	
-	ETag = Constants.ETagSpecializations.Get();
+	ETag = Constants.ETagDiseases.Get();
 	If Not ValueIsFilled(ETag) Then  
 		ETag = "*";
 	EndIf;
@@ -14,7 +14,7 @@ Procedure GetUpdateFromServer(Connection) Export
 		ETag = Response.Headers.Get("ETag");
 		
 		BeginTransaction();
-		Constants.ETagSpecializations.Set(ETag);	
+		Constants.ETagDiseases.Set(ETag);	
 				
 		Reader = New JSONReader();
 		Reader.SetString(Response.GetBodyAsString());
@@ -33,10 +33,10 @@ Procedure UpdateElementInDB(Element)
 	
 	Code = Element.id;
 	
-	UpdateableElement = Catalogs.Specializations.FindByCode(Code);
+	UpdateableElement = Catalogs.Diseases.FindByCode(Code);
 	
 	If UpdateableElement.IsEmpty() Then
-		UpdateableElement = Catalogs.Specializations.CreateItem();
+		UpdateableElement = Catalogs.Diseases.CreateItem();
 		UpdateableElement.Code = Code;
 		UpdateableElement.Description = Element.name;
 		UpdateableElement.Write();

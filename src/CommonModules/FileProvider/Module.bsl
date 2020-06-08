@@ -9,10 +9,7 @@ Function GetUpdatedFileFromServer(Connection, URL, ETag) Export
 	
 	// The server will return code 304 if the file wasn't changed
 	If Response.StatusCode = 200 Then
-		ETag = Response.Headers.Get("ETag");
-		Constants.ETag.Set(ETag);
-		
-		Return Response.GetBodyAsString();		
+		Return Response;		
 	Else	
 		Return Undefined;
 	EndIf;
