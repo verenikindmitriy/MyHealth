@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0cc74ce-072f-4cd2-bbed-b35738521aec">
+  <producedTypes>
+    <objectType typeId="e097675e-1e3c-44ed-bfa0-a4232390177f" valueTypeId="172cece7-6eba-4aae-adcc-63982c47646b"/>
+    <refType typeId="7208ff36-953d-40cb-8659-0b8463b1a25c" valueTypeId="913f9c1f-22d4-40bc-bc55-ec28b1fa8316"/>
+    <selectionType typeId="70e9758e-8f5c-479f-a44a-9aadf70351fb" valueTypeId="cadeefa6-1980-4270-8a01-7a4e8d72fe0e"/>
+    <listType typeId="5af08121-42bc-4b49-a7f8-96f76f95c42e" valueTypeId="922b653b-da0e-4c1b-a70c-21f43b8830be"/>
+    <managerType typeId="07df1a67-1f1f-41fb-846e-f6549c56ba5a" valueTypeId="e7e64390-c036-45e4-b29d-b63cc75c96f8"/>
+  </producedTypes>
+  <name>Appointment</name>
+  <synonym>
+    <key>ru</key>
+    <value>Appointment</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Appointment.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Appointments</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Appointment.Form.DocumentForm</defaultObjectForm>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="dc932eb9-6ce6-400f-832c-ea6b76aa6731">
+    <name>Specialization</name>
+    <synonym>
+      <key>ru</key>
+      <value>Specialization</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Specializations</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ddd8e183-7127-437d-b092-d50a02050673">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="edfb1bb6-6e8d-45bc-bcf5-5eb1e66cf4d7">
+    <producedTypes>
+      <objectType typeId="59a200ca-bcf3-4f52-9731-54766496d687" valueTypeId="3fa77e6a-940c-4985-828d-cecfce632346"/>
+      <rowType typeId="75115242-c1a2-49da-b9e7-7e071fbeb40a" valueTypeId="4ef2f269-b8c0-429f-bcae-622aa6d13363"/>
+    </producedTypes>
+    <name>Diseases</name>
+    <synonym>
+      <key>ru</key>
+      <value>Diseases</value>
+    </synonym>
+    <attributes uuid="4dd4a1c0-8f5f-4e26-b0ec-5195687ed620">
+      <name>Diseas</name>
+      <synonym>
+        <key>ru</key>
+        <value>Diseas</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Diseases</types>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4c753d17-d909-4fb1-ab56-8b502150f512">
+      <name>Confirmed</name>
+      <synonym>
+        <key>ru</key>
+        <value>Confirmed</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -30,4 +30,5 @@
   <constants>Constant.ETagSpecializations</constants>
   <catalogs>Catalog.Diseases</catalogs>
   <catalogs>Catalog.Specializations</catalogs>
+  <documents>Document.Appointment</documents>
 </mdclass:Configuration>
