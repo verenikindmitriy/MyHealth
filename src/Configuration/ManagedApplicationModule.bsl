@@ -1,6 +1,6 @@
 
 Procedure BeforeStart(Cancel)
 	
-	MainModule.GetUpdateCatalogsFromServer();
+	BackgroundProvider.GetUpdateCatalogsFromServer();
 
 EndProcedure

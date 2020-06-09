@@ -24,7 +24,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <commonModules>CommonModule.MainModule</commonModules>
+  <commonModules>CommonModule.BackgroundProvider</commonModules>
   <commonModules>CommonModule.FileProvider</commonModules>
   <constants>Constant.ETagDiseases</constants>
   <constants>Constant.ETagSpecializations</constants>
