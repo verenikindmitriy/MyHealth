@@ -20,6 +20,14 @@
     <name>Date</name>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>ru</key>
+      <value>DLF=D</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>DLF=D</value>
+    </editFormat>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

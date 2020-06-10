@@ -28,6 +28,7 @@
   <commonModules>CommonModule.FileProvider</commonModules>
   <constants>Constant.ETagDiseases</constants>
   <constants>Constant.ETagSpecializations</constants>
+  <commonForms>CommonForm.MainForm</commonForms>
   <catalogs>Catalog.Diseases</catalogs>
   <catalogs>Catalog.Specializations</catalogs>
   <documents>Document.Appointment</documents>
