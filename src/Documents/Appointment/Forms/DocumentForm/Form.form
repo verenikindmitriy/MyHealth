@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
-    <key>ru</key>
+    <key>en</key>
     <value>Doctor's appointment</value>
+  </title>
+  <title>
+    <key>ru</key>
+    <value>Прием врача</value>
   </title>
   <items xsi:type="form:FormField">
     <name>Date</name>

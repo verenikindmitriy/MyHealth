@@ -309,6 +309,10 @@
       </userVisible>
       <title>
         <key>ru</key>
+        <value>Приемы</value>
+      </title>
+      <title>
+        <key>en</key>
         <value>Appointments</value>
       </title>
       <extendedTooltip>
@@ -386,6 +390,10 @@
     <name>Appointments</name>
     <title>
       <key>ru</key>
+      <value>Приемы</value>
+    </title>
+    <title>
+      <key>en</key>
       <value>Appointments</value>
     </title>
     <id>1</id>

@@ -23,7 +23,10 @@ EndProcedure
 Procedure ChangeTitle()
 	
 	If Not Object.Specialization.IsEmpty() Then
-		Title =  StrTemplate("%1's appointment", Object.Specialization);
+		Template = Nstr("en = '%1''s appointment'; ru = 'Прием врача ""%1""'");
+		If Not IsBlankString(Template) Then
+			Title =  StrTemplate(Template, Object.Specialization);
+		EndIf;
 	EndIf;
 	
 EndProcedure

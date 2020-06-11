@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f69b348-a58a-11ea-0490-7c7a9189e2cf">
   <name>MyHealth</name>
+  <synonym>
+    <key>en</key>
+    <value>My health</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Мое здоровье</value>
+  </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="747d1651-1cd6-42ab-b23b-a12af36550c5"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b3954fb8-48f9-4ad4-a657-bc46b4a8e76d"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4a698233-7a0c-4f6c-b1cb-029f74c42f24"/>
@@ -19,10 +27,26 @@
   <languages uuid="6f69b514-a58a-11ea-0490-7c7a9189e2cf">
     <name>Русский</name>
     <synonym>
+      <key>en</key>
+      <value>Russian</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Русский</value>
     </synonym>
     <languageCode>ru</languageCode>
+  </languages>
+  <languages uuid="e26f239b-d370-4cfc-89d5-8e2e2e4a2568">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Английский</value>
+    </synonym>
+    <languageCode>en</languageCode>
   </languages>
   <commonModules>CommonModule.BackgroundProvider</commonModules>
   <commonModules>CommonModule.FileProvider</commonModules>

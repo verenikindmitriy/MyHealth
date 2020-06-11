@@ -9,13 +9,25 @@
   </producedTypes>
   <name>Specializations</name>
   <synonym>
-    <key>ru</key>
+    <key>en</key>
     <value>Specializations</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Специиализации</value>
   </synonym>
   <inputByString>Catalog.Specializations.StandardAttribute.Description</inputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Specialization</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Специиализация</value>
+  </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>3</codeLength>

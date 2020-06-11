@@ -9,8 +9,12 @@
   </producedTypes>
   <name>Appointment</name>
   <synonym>
-    <key>ru</key>
+    <key>en</key>
     <value>Appointment</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Прием</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.Appointment.StandardAttribute.Number</inputByString>
@@ -33,8 +37,12 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
-    <key>ru</key>
+    <key>en</key>
     <value>Appointments</value>
+  </listPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приемы</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
@@ -48,8 +56,12 @@
   <attributes uuid="dc932eb9-6ce6-400f-832c-ea6b76aa6731">
     <name>Specialization</name>
     <synonym>
-      <key>ru</key>
+      <key>en</key>
       <value>Specialization</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Специализация</value>
     </synonym>
     <type>
       <types>CatalogRef.Specializations</types>
@@ -74,14 +86,22 @@
     </producedTypes>
     <name>Diseases</name>
     <synonym>
-      <key>ru</key>
+      <key>en</key>
       <value>Diseases</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Диагнозы</value>
     </synonym>
     <attributes uuid="4dd4a1c0-8f5f-4e26-b0ec-5195687ed620">
       <name>Diseas</name>
       <synonym>
+        <key>en</key>
+        <value>Disease</value>
+      </synonym>
+      <synonym>
         <key>ru</key>
-        <value>Diseas</value>
+        <value>Диагноз</value>
       </synonym>
       <type>
         <types>CatalogRef.Diseases</types>
@@ -93,8 +113,12 @@
     <attributes uuid="4c753d17-d909-4fb1-ab56-8b502150f512">
       <name>Confirmed</name>
       <synonym>
-        <key>ru</key>
+        <key>en</key>
         <value>Confirmed</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Подтвержден</value>
       </synonym>
       <type>
         <types>Boolean</types>
